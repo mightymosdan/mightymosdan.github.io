@@ -13,6 +13,12 @@
     color: #edf2f4;
 }
 
+.sketch {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
+
 /* ID styles */
 #main_page_content_stylying{
     font-size: larger;
