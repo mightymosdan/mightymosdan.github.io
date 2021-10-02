@@ -13,14 +13,27 @@
     color: #edf2f4;
 }
 
-.sketch {
-    width: 500px;
-    height: 500px;
-    object-fit: fill;
+.sketchContentPad {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+#sketchUL {
+    list-style-position: inside;
+}
+#mainNavBar .nav-link:hover {
+    color: white;
+}
 /* ID styles */
-#main_page_content_stylying{
+#main_page_content_stylying {
     font-size: larger;
     font-weight: 450;
+}
+
+#sketchTitle {
+    font-size: 100px;
+}
+#sketchH2 {
+    color: #284b63;
+    font-weight: 500;
 }
