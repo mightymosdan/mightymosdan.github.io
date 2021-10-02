@@ -1,79 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TIU/PROJECTS</title>
-        <!-- Bootstrap css import -->
-        <link rel="stylesheet" href="styles\bootstrap.min.css">
-        <link rel="stylesheet" href="styles\app.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ME/BUTTON</title>
+  <link rel="icon" href="images\me_button_images\kirby_button_icon.png">
+  <!-- Bootstrap css import -->
+  <link rel="stylesheet" href="styles\bootstrap.min.css">
+  <link rel="stylesheet" href="styles\app.css">
+</head>
 
-    </head>
+<!--------------------------------->
+<!--Nav Bar -->
+<!--------------------------------->
+<nav id="mainNavBar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-me-button ">
+  <a class="navbar-brand" href="index.html">
+    <h3>DANIEL/TIU</h3><span class="sr-only"></span>
+  </a>
+  <!-- Toggle Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="resume.html">Resume</a>
+      <a class="nav-link" href="projects.html">Projects<span class="sr-only"></span></a>
+    </div>
+  </div>
+</nav>
 
-    <body class="main_page_body">
 
-        <!-- Nav Bar -->
-        <nav id="mainNavBar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-darker">
-            <a class="navbar-brand" href="index.html"><h3>DANIEL/TIU</h3><span class="sr-only"></span></a>
-            <!-- Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="resume.html">Resume</a>
-                <a class="nav-link" href="projects.html">Projects<span class="sr-only"></span></a>
-              </div>
-            </div>
-          </nav>
-          
-          <h1>Me Button</h1>
-          <br>
-          <br>
-          <br>
 
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top sketch" src="images\me_button_images\sketch_0.png" alt="Card image cap">
-                  <div class="card-body main_page_body">
-                    <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
+<body class="me_button_body">
+  <section class="container-fluid just px-0">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 ">
+        <img src="images\me_button_images\kirby_umbrella.gif" alt="" width="500" , height="500">
+      </div>
 
-              </div>
 
-              <div class="col-sm-6">
-                <div class="card" style="width: 18rem;">
-                  <img class="card-img-top sketch" src="images\me_button_images\sketch_1.png" alt="Card image cap">
-                  <div class="card-body main_page_body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                </div>
+    </div>
+  </section>
 
-              </div>
-              
-            </div>
+  <!--------------------------------->
+  <!--Title -->
+  <!--------------------------------->
+  <section id="intro" background="images\me_button_images\kirby_umbrella.gif">
+    <h1 id="sketchTitle" class="text-center ">ME/BUTTON/KIRBY</h1>
+    <h2 class="text-center">Daniel Tiu/Sophia Le/Marela Carlos</h2>
+
+  </section>
+
+
+  <!--------------------------------->
+  <!-- Overall Description-->
+  <!--------------------------------->
+  <section class="container-fluid px-0 ">
+    <div class="row align-items-center sketchContentPad bg-me-button-section">
+      <!-- Left Side -->
+      <div class="col-lg-6 text-center ">
+        <div class="row justify-content-center">
+          <div class="col-xs-12">
+            <h2 id="sketchH2" class="text-center">Me Button: Kirby</h2>
+            <h4 id="sketchH2" class="text-center"> ~~~ </h4>
+            <p id="sketchUL" class="text-left">
+              For the "Me" Button, we decided to use Kirby as the character we would be focusing on.<br>
+              We chose him due to his popularity in the gaming world and his cute aesthetic.<br>
+              Kirby is well known for eating, enjoying life, and adventuring to defeat bad guys!<br>
+              <br>
+              To begin the project we each thought of 10 different ideas and sketched them<br>
+              My ideas were:<br>
+            <ul id="sketchUL" class="text-left">
+              <li>Infinite Kirby Feeding via circular belt</li>
+              <li>Click to feed</li>
+              <li>Mash button to unleash Kirby's Power!</li>
+              <li>Upgrade Kirby graphics through the ages</li>
+              <li>Draw Kirby</li>
+              <li>Catch Falling Food with Kirby!</li>
+              <li>Kirby x Mario Game</li>
+              <li>DDR Kirby</li>
+              <li>Kirby ASMR</li>
+              <li>Kirby Kombos</li>
+            </ul>
+            </p>
           </div>
-            
-         
-          <div class="container">
-            <!-- Video of Button -->
+        </div>
+      </div>
+      <!-- Right Side -->
+      <div class="col-lg-6">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <!-- <img class="img-fluid" src="images\me_button_images\me_button_kirby_card.jpg" alt="">     -->
+            <img src="images\me_button_images\kirby-dance.gif" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------->
+  <!-- Initial Sketches -->
+  <!--------------------------------->
+  <section class="container-fluid px-0">
+    <div class="row align-items-center sketchContentPad bg-me-button-section-alt">
+      <!-- Left Side -->
+      <div class="col-lg-6 order-2 order-lg-1">
+        <div class="row justify-content-center">
+          <div class="col-10">
             <div class="row">
               <div class="col-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1FUKtXMk_Oo"></iframe>
+                <!-- Carousel -->
+                <div id="initialSketches" class="carousel slide" data-ride="carousel">
+                  <ol id="sketchUL" class="carousel-indicators">
+                    <li data-target="#initialSketches" data-slide-to="0" class="active"></li>
+                    <li data-target="#initialSketches" data-slide-to="1"></li>
+                    <li data-target="#initialSketches" data-slide-to="2"></li>
+                    <li data-target="#initialSketches" data-slide-to="3"></li>
+                    <li data-target="#initialSketches" data-slide-to="4"></li>
+                    <li data-target="#initialSketches" data-slide-to="5"></li>
+                    <li data-target="#initialSketches" data-slide-to="6"></li>
+                    <li data-target="#initialSketches" data-slide-to="7"></li>
+                    <li data-target="#initialSketches" data-slide-to="8"></li>
+                    <li data-target="#initialSketches" data-slide-to="9"></li>
+                  </ol>
+                  <!-- Carousel Content -->
+                  <div class="carousel-inner">
+
+                    <!-- Sketch 0 -->
+                    <div class="carousel-item active">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_0.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 1 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_1.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                          <br>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 2 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_2.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 3 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_3.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 4 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_4.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 5 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_5.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 6 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_6.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 7 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_7.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 8 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_8.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 9 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\sketch_9.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#initialSketches" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#initialSketches" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        <!-- Bootstrap js import -->
-        <script src="scripts\jquery-3.6.0.js"></script>
-        <script src="scripts\bootstrap.bundle.min.js"></script> 
-    </body>
+        </div>
+      </div>
+      <!-- Right Side -->
+      <div class="col-lg-6 text-center order-1 order-lg-2">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <h2 id="sketchH2" class="text-center"> 10x10 Method: Initial Sketches </h2>
+            <h4 id="sketchH2" class="text-center"> ~~~ </h4>
+
+            <p class="text-left">
+              Each member of our group drew 10 sketches for what we
+              Here are my initial sketches for our Kirby Button at a quick glance!<br><br>
+              If you want to see them with more detail and notes, refer to this page:<br>
+              <a id="me_button_link" class="nav-link " href="me_button_daniel_initial_sketches.html">Daniel's Initial
+                Sketches - Detailed</a>
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <img src="images\me_button_images\kirby_rolling.gif" alt="">
+              </div>
+              <div class="col-md-6 d-none d-md-inline">
+                <img src="images\me_button_images\kirby_rolling.gif" alt="">
+              </div>
+            </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--------------------------------->
+  <!-- Top 3 Sketches-->
+  <!--------------------------------->
+  <section class="container-fluid px-0 sketchContentPad bg-me-button-section ">
+    <h2 id="sketchH2" class="text-center"> Top 3 Sketches </h2>
+    <h4 id="sketchH2" class="text-center"> ~~~ </h4>
+    <p class="text-center">
+      The top 3 sketches from the collective 30 were:<br>
+    <ol id="sketchUL" class="text-center">
+      <li>Random Kirby Meme Generator by Sophia</li>
+      <li>Alernate between Kirby's Copy Abilities by Sophia</li>
+      <li>Feed Kirby button variatons 1-3 by Marela</li>
+    </ol>
+    </p>
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <div class="row justify-content-center">
+          <!-- Carousel -->
+          <div class="col-8">
+            <div id="chosenSketches" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#chosenSketches" data-slide-to="0" class="active"></li>
+                <li data-target="#chosenSketches" data-slide-to="1"></li>
+                <li data-target="#chosenSketches" data-slide-to="2"></li>
+                <li data-target="#chosenSketches" data-slide-to="3"></li>
+                <li data-target="#chosenSketches" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner">
+
+                <!-- Sketch 0 -->
+                <div class="carousel-item active just">
+                  <div class="item active">
+                    <img class="d-block w-100 sketch" src="images\me_button_images\chosen_0.png" alt="">
+                    <div class="carousel-caption d-none d-md-block"></div>
+
+                    <h5 class="text-center">Kirby Meme Generator</h5><br>
+                  </div>
+                </div>
+
+                <!-- Sketch 1 -->
+                <div class="carousel-item">
+                  <div class="item">
+                    <img class="d-block w-100 sketch" src="images\me_button_images\chosen_1.png" alt="">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                    <h5 class="text-center"> Copy Abilities</h5><br>
+                  </div>
+                </div>
+
+                <!-- Sketch 2 a -->
+                <div class="carousel-item">
+                  <div class="item">
+                    <img class="d-block w-100 sketch" src="images\me_button_images\chosen_2_a.png" alt="">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                    <h5 class="text-center"> Feed Kirby Variation 1</h5><br>
+                  </div>
+                </div>
+
+                <!-- Sketch 2 b -->
+                <div class="carousel-item">
+                  <div class="item">
+                    <img class="d-block w-100 sketch" src="images\me_button_images\chosen_2_b.png" alt="">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                    <h5 class="text-center"> Feed Kirby Variation 2</h5><br>
+                  </div>
+                </div>
+
+                <!-- Sketch 2 c -->
+                <div class="carousel-item">
+                  <div class="item">
+                    <img class="d-block w-100 sketch" src="images\me_button_images\chosen_2_c.png" alt="">
+                    <div class="carousel-caption d-none d-md-block"></div>
+                    <h5 class="text-center"> Feed Kirby Variation 1</h5><br>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Controls -->
+              <a class="carousel-control-prev" href="#chosenSketches" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+
+              <a class="carousel-control-next" href="#chosenSketches" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <p>
+          We chose these three because they most accurately represented Kirby's complex personality. His love of
+          laughter, his ability to transform in order to fight, and his love of food are his main characteristics.
+        </p>
+        <div class="row justify-content-center">
+          <img src="images\me_button_images\copy_abilities.gif" alt="" width="250" height="250">
+        </div>
+      </div>
+  </section>
+
+  <!--------------------------------->
+  <!-- Refined Sketches -->
+  <!--------------------------------->
+  <section class="container-fluid px-0 bg-me-button-section-alt">
+    <div class="row align-items-center sketchContentPad">
+      <!-- Left Side -->
+      <div class="col-lg-6 text-center ">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <h2 id="sketchH2" class="text-center">Refined Sketches</h2>
+            <h4 id="sketchH2" class="text-center"> ~~~ </h4>
+            <p>
+              Here are my refined sketches for the top 3 sketches that were chosen.
+            </p>
+
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <img src="images\me_button_images\kirby_agree.gif" alt="" width="250" height="250">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Side -->
+      <div class="col-lg-6">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="row">
+              <div class="col-12">
+                <!-- Carousel -->
+                <div id="refinedSketches" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#refinedSketches" data-slide-to="0" class="active"></li>
+                    <li data-target="#refinedSketches" data-slide-to="1"></li>
+                    <li data-target="#refinedSketches" data-slide-to="2"></li>
+                    <li data-target="#refinedSketches" data-slide-to="3"></li>
+                    <li data-target="#refinedSketches" data-slide-to="4"></li>
+                    <li data-target="#refinedSketches" data-slide-to="5"></li>
+                    <li data-target="#refinedSketches" data-slide-to="6"></li>
+                    <li data-target="#refinedSketches" data-slide-to="7"></li>
+                    <li data-target="#refinedSketches" data-slide-to="8"></li>
+                    <li data-target="#refinedSketches" data-slide-to="9"></li>
+                  </ol>
+
+                  <!-- Carousel Content -->
+                  <div class="carousel-inner">
+
+                    <!-- Sketch 0 -->
+                    <div class="carousel-item active">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_0.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 1 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_1.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 2 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_2.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 3 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_3.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 4 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_4.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 5 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_5.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 6 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_6.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 7 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_7.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 8 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_8.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Sketch 9 -->
+                    <div class="carousel-item">
+                      <div class="item active">
+                        <img class="d-block w-100 sketch" src="images\me_button_images\refined_sketch_9.png"
+                          alt="First slide">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                      </div>
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <a class="carousel-control-prev" href="#refinedSketches" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#refinedSketches" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------->
+  <!-- Video Demo/Implementation -->
+  <!--------------------------------->
+  <div class="container px-0">
+
+    <div class="row align-items-center bg-me-button-section justify-content-center">
+      <div class="col-lg-8 text-center ">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h2 id="sketchH2" class="text-center">Implementation</h2>
+            <h4 id="sketchH2" class="text-center"> ~~~ </h4>
+            <p>
+              After looking over our refined sketches together we combined our ideas to create our button.<br>
+              Here are the ideas we came up with when comparing our 30 refined sketches:<br>
+            <ul id="sketchUL" class="text-left">
+              <li>Chef Kirby would be the button</li>
+              <li>Beside Chef Kirby would be a giant Mirror to show off Memes</li>
+              <li>There would be a walking Kirby</li>
+              <li>Clicking Chef Kirby once produces a Copy Ability for Kirby to consume</li>
+              <li>Clicking Chef Kirby twice produces a M Tomato and when consumed produces a Meme</li>
+              <li>Clicking and holding down on Chef Kirby produces food for Kirby to consume</li>
+              <li>When consuming a Copy Ability, Kirby would transform and the background would change</li>
+              <li>Everytime Kirby sucks in a sound is made</li>
+              <li>When consuming a M Tomato or food Kirby would transform back to normal</li>
+              <li>Kirby makes one of several "poyo" sounds when eating</li>
+
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Video of Button -->
+    <div class="row align-items-center sketchContentPad bg-me-button-section ">
+      <div class="col-md-12">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1FUKtXMk_Oo"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Bootstrap js import -->
+  <script src="scripts\jquery-3.6.0.js"></script>
+  <script src="scripts\bootstrap.bundle.min.js"></script>
+</body>
 
 
 </html>

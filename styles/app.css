@@ -5,6 +5,18 @@
     /* background-color: #2b2d42; */
     background-color: #284b63;
 }
+
+.bg-me-button {
+    background-color: #a2d2ff;
+}
+
+.bg-me-button-section {
+    background-color: #dee2ff;
+}
+
+.bg-me-button-section-alt {
+    background-color: #feeafa;
+}
 /* Custom Navbar Text Color */
 
 .main_page_body {
@@ -13,10 +25,26 @@
     color: #edf2f4;
 }
 
+.me_button_body {
+    background-color: #bde0fe;
+    color: #8e9aaf;
+}
+
+.sketch {
+    width: 300px;
+    height: 250px;
+    object-fit: fill;
+}
+
+.carousel {
+    width: 80%;
+    height: 100%;
+}
 .sketchContentPad {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
 
 #sketchUL {
     list-style-position: inside;
@@ -33,7 +61,14 @@
 #sketchTitle {
     font-size: 100px;
 }
+
 #sketchH2 {
-    color: #284b63;
+    color: #8e9aaf;
     font-weight: 500;
 }
+
+#me_button_link {
+    color: #f9c74f
+}
+
+
