@@ -1,0 +1,79 @@
+/* Class styles */
+
+/* Custom Navbar Background Color */
+.bg-darker {
+    /* background-color: #2b2d42; */
+    background-color: #284b63;
+}
+
+.bg-me-button {
+    background-color: #a2d2ff;
+}
+
+.bg-me-button-section {
+    background-color: #dee2ff;
+}
+
+.bg-me-button-section-alt {
+    background-color: #feeafa;
+}
+/* Custom Navbar Text Color */
+
+.main_page_body {
+    /* background-color: #8d99ae ; */
+    background-color: #353535;
+    color: #edf2f4;
+}
+
+.me_button_body {
+    background-color: #bde0fe;
+    color: #8e9aaf;
+}
+
+.carousel {
+    width: 80%;
+    height: 100%;
+}
+.sketchContentPad {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bde0fe' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bde0fe' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+.carousel-inner img {
+    margin: auto;
+  }
+
+#sketchUL {
+    list-style-position: inside;
+}
+#mainNavBar .nav-link:hover {
+    color: white;
+}
+/* ID styles */
+#main_page_content_stylying {
+    font-size: larger;
+    font-weight: 450;
+}
+
+#sketchTitle {
+    font-size: 100px;
+}
+
+#sketchH2 {
+    color: #8e9aaf;
+    font-weight: 500;
+}
+
+#me_button_link {
+    color: #a2d2ff;
+    font-weight: bolder;
+}
+
+
