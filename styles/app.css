@@ -30,6 +30,16 @@
     color: #8e9aaf;
 }
 
+.project_button_body {
+    background-color: #353535;
+    color:white
+}
+
+.project_button_body_alt {
+    background-color: #284b63;
+    color:white
+}
+
 .carousel {
     width: 80%;
     height: 100%;
@@ -76,4 +86,8 @@
     font-weight: bolder;
 }
 
+#projectButton .project_button_body_alt:hover {
+    color: white;
+
+}
 
